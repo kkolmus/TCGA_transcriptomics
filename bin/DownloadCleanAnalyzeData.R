@@ -36,6 +36,9 @@ projects
 
 flog.debug("Download and analyze RNASeq data for TCGA project with paired normal and tumour samples")
 
+# projects = "TCGA-READ"
+# proj = "TCGA-READ"
+
 for(proj in projects) {
   flog.debug(paste0("Begin processing the ", proj, " project")) # print project 
   flog.debug("Query GDC data")
